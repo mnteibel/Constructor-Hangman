@@ -12,7 +12,7 @@ newWord.displayLetters();
 
 var play = function(){
 
-	console.log("You have " + newWord.guesses + " remaining!")
+	console.log("You have " + newWord.guesses + "guesses remaining!")
 
 	inquirer.prompt([{
 			name: "input",
