@@ -5,7 +5,7 @@ function Letter(l) {
 		if (this.guessedCorrectly) {
 			return(this.letter)
 		} else {
-			return("_")
+			return("_ ")
 		}
 	}
 }
